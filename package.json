@@ -1,0 +1,35 @@
+{
+  "name": "Personal Portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site made to show off what I've accomplished in this field so far.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tectone/personalPortfolio.git"
+  },
+  "keywords": [
+    "Personal",
+    "Portfolio",
+    "John",
+    "Robertson"
+  ],
+  "author": "John Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tectone/personalPortfolio/issues"
+  },
+  "homepage": "https://github.com/Tectone/personalPortfolio#readme",
+  "dependencies": {
+    "eslint": "^5.7.0",
+    "sass": "^1.14.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
