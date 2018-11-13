@@ -25,7 +25,7 @@ $ git clone https://github.com/Tectone/personalPortfolio.git
 
 # Go into the repository
 
-$ cd AV_app
+$ cd personalPortfolio
 
 ```
 
