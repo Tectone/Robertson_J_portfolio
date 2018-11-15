@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+			  
+				  
+ 
+	
+	/* Standard CSS -------------------------------------------
+	-----------------------------------------------------------*/
+	
+
+	#container {
+		width: 1200px;
+	    margin: 0 auto;
+	    text-align: center;
+	    font-family: 'Didact Gothic', sans-serif;
+	    border: 3px #1779ba solid;
+	    margin-top: 100px;
+			border-radius: 5px;
+			margin-bottom: 40px;
+	 
+	}
+
+
+	.hidden {
+		display: none;
+	}	
+
+	.fullWidth {
+	  width: 100%;
+	}
+
+	.row {
+	  margin: 0 0 0 0;
+	  max-width: 100%;
+	}
+
+	.title {
+	  color: black;
+	  text-transform: uppercase;
+	  font-weight: bolder;
+	  margin-top: 20px;
+	  margin-bottom: 0px;
+	}
+
+	.subTitle {
+		  margin-bottom: 20px;
+		  margin-top: 0px;
+
+	}
+
+	.recentWork {
+		margin-bottom: 30px;
+	}
+
+	.recentWork img {
+		 border-radius: 5px;
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.small-12 {
+		margin-bottom: 20px;
+	}
+
+
+
+/* Navigation -------------------------------------------
+	-----------------------------------------------------------*/
+	
+.navigationHeader {
+  text-align: center;
+  background: #1779ba;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 150px;
+}
+
+.navigationHeader .navigationLogo {
+  color: #fefefe;
+  font-family: 'Anton';
+  letter-spacing: 6px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav li {
+  float: none;
+  display: inline-block;
+}
+
+.nav li a {
+  padding: 0.9rem 1rem;
+  font-size: 0.75rem;
+  color: #fefefe;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
+}
+
+.nav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.nav li a:hover {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+
+/* Portfolio -------------------------------------------
+-----------------------------------------------------------*/
+
+.portfolioWork {
+	margin-top: 50px;
+}
+
+.portfolioWork p  {
+ font-size: 20px;
+}
+
+.portfolioImage {
+	padding: 20px !important;
+}
+
+/* About Me -------------------------------------------
+-----------------------------------------------------------*/
+
+.recentWork p {
+	 font-size: 25px;
+	 padding: 30px;
+}
+
+/* Contact -------------------------------------------
+-----------------------------------------------------------*/
+
+.contactDiv {
+	text-align: center;
+}
+
+.submit-button {
+	display: inline-block;
+	margin-bottom: 40px;
+	padding: 15px 25px;
+	width: 100%;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #1779ba;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #0b4368;
+
+}
+
+.submit-button:hover {
+	background-color: #04548a;
+}
+
+.submit-button:active {
+  background-color: #1779ba;
+  box-shadow: 0 5px #0b4368;
+  transform: translateY(4px);
+}
+	
+/* Footer -------------------------------------------
+-----------------------------------------------------------*/
+
+
+
+footer {
+  background: #387AB7;
+  bottom: 0;
+
+}
+
+
+footer li {
+	color: white;
+	display: inline-block;
+	margin: 10px;
+}
+
+footer i {
+	  color: white;
+	   font-size: 1.3rem;
+}
+
+footer ul {
+	margin: 0;
+}
+
+footer .fab:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+
+
+
+	
+	
+	
+	
+	/* Media Queries -------------------------------------------
+	-----------------------------------------------------------*/
+
+
+
+	@media screen and (min-width: 320px) and (max-width: 640px) {
+			  
+	  .icon {
+		  padding: 10px;}
+
+	  header h2 {
+	  	font-size: 40px;
+	  }
+
+	  	header p {
+			font-size: 20px;
+		}
+
+		.masks {
+			margin-bottom: 20px;
+		}
+		
+
+		  }
+
+
+			
+
+@media screen and (min-width: 641px) and (max-width: 1025px) {
+		
+	   .icon {
+		  width: 160px;
+		  padding: 10px;
+		}
+
+		article {
+			height: 300px;
+		}
+
+		header h2 {
+			font-size: 35px;
+		}
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1326px) {
+
+
+	header h2 {
+			font-size: 40px;
+		}
+
+	}
+
+	@media screen and  (max-width: 1226px) {
+		#container { 
+			width: 95%;
+		}
+
+	}
+		
+	
+	 
+	
+	
+	        
+	
