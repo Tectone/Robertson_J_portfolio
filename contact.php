@@ -8,7 +8,7 @@
 
 
     <header class="navigationHeader">
-      <h1 class="navigationLogo">TECTONE</h1>
+    <h1 class="navigationLogo"><img src="images/logo.png"></h1>
           <ul class="nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="portfolio.php">Portfolio</a></li>

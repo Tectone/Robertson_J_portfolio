@@ -8,7 +8,7 @@
 
 
     <header class="navigationHeader">
-      <h1 class="navigationLogo">TECTONE</h1>
+    <h1 class="navigationLogo"><img src="images/logo.png"></h1>
           <ul class="nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="portfolio.php"  class="is-active">Portfolio</a></li>
@@ -22,17 +22,15 @@
         <h2 class="title"></h2>
         <p class="subTitle"></p>
 
-          <a href="easymerchant.php"><div class="columns small-12 large-4">
+          <a href="easymerchant.php"><div class="columns small-12 large-6">
               <img src="images/easymerchant_thumb.png" alt="easymerchant_thumb">
           </div></a>
 
-            <div class="columns small-12 large-4">
+            <a href="guacamole.php"><div class="columns small-12 large-6">
               <img src="images/gtc.png" alt="gtc_thumb">
-          </div>
+          </div></a>
 
-            <div class="columns small-12 large-4">
-              <img src="images/easymerchant_thumb.png" alt="easymerchant_thumb">
-          </div>
+      
    </div>
 <?php include 'includes/footer.html';?>
          

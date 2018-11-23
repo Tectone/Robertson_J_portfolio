@@ -8,7 +8,7 @@
 
 
     <header class="navigationHeader">
-      <h1 class="navigationLogo">TECTONE</h1>
+      <h1 class="navigationLogo"><img src="images/logo.png"></h1>
           <ul class="nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="portfolio.php"  class="is-active">Portfolio</a></li>
@@ -21,7 +21,7 @@
     <div class="row portfolioWork">
       <div class="columns large-10 large-centered">
         <h2 class="title">EasyMerchant Logo Design</h2>
-        <p class="subTitle">Logo design for a national supplier of building plastics in the UK. They had reached out to my wife and I to create a logo for their business. I worked on the conceptualization & sketching while she finalized and vectorized the design.  </p>
+        <p class="subTitle">Logo design for a national supplier of building plastics in the UK. They had reached out to my wife and I to create a logo for their business. I worked on the conceptualization & sketching while she finalized and vectorized the design. Check our their <a class='link' href="https://www.easymerchant.co.uk/">Website</a> to see the logo in action!  </p>
         </div>
         <img class="portfolioImage" src="images/easymerchant_logo.png" alt="easymerchant_logo">
    </div>
