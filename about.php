@@ -25,10 +25,7 @@
 
     <div class="row recentWork">
         <h2 class="title">Hey There!</h2>
-        <p class="subTitle"> My name is John Robertson. 
-            I'm a freelance graphic designer & front-end developer. 
-            I have a background in philosophy, psychology, sociology, and theater.
-            Bring that alltogether and you have yourself the powerhouse that is called Tectone</p>
+        <p class="subTitle"> The name's John Robertson. I'm a freelance graphic designer & concept diviner. I have a background in philosophy, psychology, sociology, and performance arts.</p>
 
          
    </div>
