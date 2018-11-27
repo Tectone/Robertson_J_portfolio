@@ -12,7 +12,6 @@
           <ul class="nav">
               <li><a href="index.php" class="is-active">Home</a></li>
               <li><a href="portfolio.php">Portfolio</a></li>
-              <li><a href="about.php">About</a></li>
               <li><a href="contact.php">Contact</a></li>
           </ul>
     </header>
@@ -25,7 +24,7 @@
 
     <div class="row recentWork">
         <h2 class="title">The Name's John</h2>
-        <p class="subTitle">The name's John Robertson. I'm a freelance graphic designer & concept diviner. I have a background in philosophy, psychology, sociology, and performance arts.</p>
+        <p class="subTitle">Hey there My name is John Robertson. I'm a freelance graphic designer & front-end developer. I have a background in philosophy, psychology, sociology, and theater. Bring that alltogether and you have yourself the powerhouse tht is called me.</p>
 
          
    </div>

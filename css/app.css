@@ -6,9 +6,7 @@
 	
 	/* Standard CSS -------------------------------------------
 	-----------------------------------------------------------*/
-  body {
-		
-	}
+
 
 	#container {
 		width: 1200px;
@@ -17,7 +15,7 @@
 	    font-family: 'Didact Gothic', sans-serif;
 			border: 3px #1779ba solid;
 			background-color: white;
-	    margin-top: 80px;
+	    margin-top: 50px;
 			border-radius: 5px;
 			margin-bottom: 40px;
 	 
@@ -92,7 +90,7 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 180px;
+  height: 250px;
 }
 
 .navigationHeader .navigationLogo {
@@ -100,6 +98,7 @@
   font-family: 'Anton';
   letter-spacing: 6px;
 	padding-bottom: 20px;
+
 	margin-bottom: 30px;
 	width: 300px;
 }
@@ -124,7 +123,7 @@
   color: #fefefe;
   text-transform: uppercase;
   display: block;
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: 1px;
   transition: all 0.35s ease-in-out;
 }
@@ -140,26 +139,32 @@
 
 /* Portfolio -------------------------------------------
 -----------------------------------------------------------*/
-
-.portfolioWork {
+.title {
 	margin-top: 50px;
 }
 
-.portfolioWork p  {
- font-size: 20px;
+.subTitle {
+	font-size: 20px;
+	width: 90%;
+	margin: 0 auto; 
+	text-align: center;
+	margin-bottom: 40px;
 }
 
-.portfolioImage {
-	padding: 20px !important;
+.designWork  {
+	width: 90% !important;
+	text-align: center;
+	margin: 0 auto;
 }
 
-/* About Me -------------------------------------------
------------------------------------------------------------*/
-
-.recentWork p {
-	 font-size: 25px;
-	 padding: 30px;
+.designWork p {
+	font-size: 20px;
 }
+
+.designWork hr {
+	border: 2px solid #73a7ff47;
+}
+
 
 /* Contact -------------------------------------------
 -----------------------------------------------------------*/

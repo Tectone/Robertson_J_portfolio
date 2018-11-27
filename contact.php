@@ -12,7 +12,6 @@
           <ul class="nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="portfolio.php">Portfolio</a></li>
-              <li><a href="about.php">About</a></li>
               <li><a href="contact.php"  class="is-active">Contact</a></li>
           </ul>
     </header>

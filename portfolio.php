@@ -2,7 +2,7 @@
 
 
     <body class="animated fadeIn">
-     <h1 class="hidden">Tectone | Home</h1>
+     <h1 class="hidden">Tectone | Portfolio</h1>
 
      <div id="container">    
 
@@ -12,7 +12,6 @@
           <ul class="nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="portfolio.php"  class="is-active">Portfolio</a></li>
-              <li><a href="about.php">About</a></li>
               <li><a href="contact.php">Contact</a></li>
           </ul>
     </header>
@@ -22,16 +21,18 @@
         <h2 class="title"></h2>
         <p class="subTitle"></p>
 
-          <a href="easymerchant.php"><div class="columns small-12 large-6">
-              <img src="images/easymerchant_thumb.png" alt="easymerchant_thumb">
+          <a href="designs.php"><div class="columns small-12 large-6">
+              <img src="images/graphic_thumb.png" alt="easymerchant_thumb">
           </div></a>
 
-            <a href="guacamole.php"><div class="columns small-12 large-6">
-              <img src="images/gtc.png" alt="gtc_thumb">
+            <a href="animation.php"><div class="columns small-12 large-6">
+              <img src="images/3d_thumb.png" alt="gtc_thumb">
           </div></a>
 
       
    </div>
+
+
 <?php include 'includes/footer.html';?>
          
   </div>  
