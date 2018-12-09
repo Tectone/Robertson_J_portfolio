@@ -24,12 +24,15 @@ require_once('includes/init.php');
         <h2 class="title"> Graphic Design</h2>
         <p class="subTitle"> Here's series of designs that I have worked on either completely myself or that I offered conceptualization. Each client reached out to me directly and inquired about branding from scratch.  </p>
 
-   <div class="designWork">     
+   <div class="designWork">
+
 <?php
+
 	if(!is_string($getDesigns)) {
 		while($row = mysqli_fetch_array($getDesigns)) {
             echo "<hr><br>";
-            echo "<h2>{$row['designs_title']}</h2>";
+            echo "<h3 class=\"hidden\">{$row['designs_title']}</h3>";
+            echo "<p class=\"designTitle\">{$row['designs_title']}</p>";
             echo "<p>{$row['designs_text']}</p>";
             echo "<br><br>";
 			echo "<img data-aos=\"fade-up\" src=\"images/{$row['designs_image']}\" alt=\"{$row['designs_title']}\">";

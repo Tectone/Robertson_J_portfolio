@@ -19,6 +19,7 @@
 
     <div class="row recentWork">
         <h2 class="title">3D Animation</h2>
+        <h3 class="hidden">Animation Reel</h3>
         <p class="subTitle"> Here's my 3D animation highlight reel.</p>
 
    <div class="animation large-centered medium-8 large-8 push-2" >

@@ -1,27 +1,56 @@
-<?php include '../includes/header3.html'; ?>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tectone | Designer & Animator</title>
+    <link rel="stylesheet" href="../css/normalize.css"/>
+    <link rel="stylesheet" href="../css/foundation.css"/>
+    <link rel="stylesheet" href="../css/app.css"/>
+    <link rel="stylesheet" href="../css/hover.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7cDidact+Gothic" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 
 
-			<div class="large-9 columns">
-				<div class="animated fadeIn">
-			
-				<about>
-					<h1>Contact me</h1>
-					<p></p>
-					<line></line>
+    <body class="animated fadeIn">
+     <h1 class="hidden">Tectone | Contact</h1>
+
+     <div id="container">    
+
+
+      <header class="navigationHeader">
+    <div class="navigationLogo"><a href="../index.php"><img class="hvr-bob" alt="logo" src="../images/logo.png"></a></div>
+          <ul class="nav">
+              <li><a href="../index.php">Home</a></li>
+              <li><a href="../portfolio.php">Portfolio</a></li>
+              <li><a href="../contact.php" class="is-active">Contact</a></li>
+          </ul>
+    </header>
+
+<div class="row contact">
+        <h2 class="title">Thanks for Contacting me!</h2>
+
+
 					<div id="ok">
-						Your message has been successfully sent. Thank you!
+						<p>Your message has been successfully sent. Thank you!</p><br>
 					</div>
-<div class="centerC"><br><br><br>
-<img src="http://i.imgur.com/TJyFAIj.gif" style="width:75%; text-align:center;"></div>
-
-				</about>
-				</div>
-				
 			</div>
+      <?php include '../includes/footer.html';?>
 		</div>
 	</box>
 
-  <script>
+
+
+   </div>
+
+
+
+</div>
+
+<script>
   document.write('<script src=' +
   ('__proto__' in {} ? '../js/vendor/zepto' : '../js/vendor/jquery') +
   '.js><\/script>')
@@ -44,5 +73,5 @@
         setTimeout(function(){window.scrollTo(0, 1);}, 1);
     }
   </script>
-</body>
-</html>
+
+ <?php include '../includes/endPage.html';?>

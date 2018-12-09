@@ -54,31 +54,37 @@
   <div class="modal-content">
 
     <div class="mySlides">
+         <h3 class="hidden">Bunny Image 01</h3>
       <div class="numbertext">1 / 6</div>
       <img src="images/bunny1.jpg" alt="catPicture" style="width:100%">
     </div>
 
     <div class="mySlides">
+         <h3 class="hidden">Bunny Image 02</h3>
       <div class="numbertext">2 / 6</div>
       <img src="images/bunny2.jpg" alt="catPicture" style="width:100%">
     </div>
 
         <div class="mySlides">
+             <h3 class="hidden">Krobus Image 01</h3>
       <div class="numbertext">3 / 6</div>
       <img src="images/krobus1.jpg" alt="catPicture" style="width:100%">
     </div>
 
         <div class="mySlides">
+          <h3 class="hidden">Krobus Image 02</h3>
       <div class="numbertext">4 / 6</div>
       <img src="images/krobus2.jpg" alt="catPicture" style="width:100%">
     </div>
 
         <div class="mySlides">
+          <h3 class="hidden">Krobus Image 03</h3>
       <div class="numbertext">5 / 6</div>
       <img src="images/krobus3.jpg" alt="catPicture" style="width:100%">
     </div>
 
           <div class="mySlides">
+            <h3 class="hidden">Bobus Image 01</h3>
       <div class="numbertext">6 / 6</div>
       <img src="images/bobus.jpg" alt="catPicture" style="width:100%">
     </div>

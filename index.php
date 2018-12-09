@@ -27,7 +27,7 @@
     <h2 class="hidden">Introduction</h2>
 
     <div class="columns intro large-4 large-centered hvr-bob" data-aos="fade-up">
-        <h2> 24 years I have spent on this world.</h2>
+        <h3> 24 years I have spent on this world.</h3>
      
     </div>
 
@@ -40,10 +40,10 @@
 
       <!-- 7 years in school -->
     <div class="row about fullWidth">
-    <h2 class="hidden">Introduction</h2>
+    <h2 class="hidden">Honing my Skills</h2>
 
        <div class="columns intro large-10 large-centered hvr-bob" data-aos="fade-up">
-        <h2> 7 and a half were spent in college honing my skills.</h2>
+        <h3> 7 and a half were spent in college honing my skills.</h3>
         <p>That's almost 30% of my life!</p>
     </div>
  
@@ -55,9 +55,12 @@
 
       <!-- School Degrees -->
     <div class="row about fullWidth icons">
-    <h2 class="hidden">Introduction</h2>
-      
-      <ul class="large-block-grid-4">
+    <h2 class="hidden">What I went to School For</h2>
+       <h3 class="hidden">Psychology</h3>
+        <h3 class="hidden">Sociology</h3>
+        <h3 class="hidden">Performance Arts</h3>
+         <h3 class="hidden">Interactive Media Design</h3>
+      <ul class="large-block-grid-4 small-block-grid-1 medium-block-grid-2">
         <li  data-aos="fade-up"
      data-aos-duration="500"><i class="fas fa-brain hvr-grow"></i><br><p>Psychology</p></li>
         <li data-aos="fade-up"

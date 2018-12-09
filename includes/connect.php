@@ -1,9 +1,9 @@
 <?php
 // This file connects to the database.
-	$user = "root";
-	$pass = "";
+	$user = "tectone";
+	$pass = "tectone";
 	//$pass = "root"; Mac only
-	$url = "localhost";
+	$url = "jessicafreaxx14655.ipagemysql.com";
 	$db = "db_tectone";
 
 	$link = mysqli_connect($url, $user, $pass, $db);
