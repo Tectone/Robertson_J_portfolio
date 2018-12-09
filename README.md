@@ -24,7 +24,7 @@ $ git init
 
 # Clone this repository
 
-$ git clone https://github.com/Tectone/personalPortfolio.git
+$ git clone https://github.com/Tectone/Robertson_J_portfolio.git
 
 # Go into the repository
 
