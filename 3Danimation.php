@@ -12,6 +12,8 @@
           <ul class="nav">
               <li><a href="index.php" class="is-active">Home</a></li>
               <li><a href="portfolio.php">Portfolio</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="portfolio.php" class="is-active">Portfolio</a></li>
               <li><a href="contact.php">Contact</a></li>
           </ul>
     </header>
