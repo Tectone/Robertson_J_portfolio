@@ -1,40 +1,42 @@
 
 
-function loadOptimist() {
-  var OptimistResult = new XMLHttpRequest();
-  OptimistResult.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("changeResultOptimist").innerHTML =
-      this.responseText;
-    }
-  };
-  OptimistResult.open("GET", "includes/optimist.html", true);
-  OptimistResult.send();
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
 }
 
-
-function loadInBetweener() {
-  var InBetweenResult = new XMLHttpRequest();
-  InBetweenResult.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("changeResultInBetween").innerHTML =
-      this.responseText;
-    }
-  };
-  InBetweenResult.open("GET", "includes/inbetween.html", true);
-  InBetweenResult.send();
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
 }
 
-function loadPessimist() {
-  var PessimistResult = new XMLHttpRequest();
-  PessimistResult.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("changeResultPessimist").innerHTML =
-      this.responseText;
-    }
-  };
-  PessimistResult.open("GET", "includes/pessimist.html", true);
-  PessimistResult.send();
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}

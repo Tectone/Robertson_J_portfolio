@@ -7,11 +7,11 @@
      <div id="container">    
 
 
-    <header class="navigationHeader">
-    <h1 class="navigationLogo"><img src="images/logo.png"></h1>
+       <header class="navigationHeader">
+    <div class="navigationLogo"><a href="index.php"><img class="hvr-bob" alt="logo" src="images/logo.png"></a></div>
           <ul class="nav">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="portfolio.php"  class="is-active">Portfolio</a></li>
+              <li><a href="index.php" class="is-active">Home</a></li>
+              <li><a href="portfolio.php">Portfolio</a></li>
               <li><a href="contact.php">Contact</a></li>
           </ul>
     </header>
@@ -21,12 +21,16 @@
         <h2 class="title"></h2>
         <p class="subTitle"></p>
 
-          <a href="designs.php"><div class="columns small-12 large-6">
-              <img src="images/graphic_thumb.png" alt="easymerchant_thumb">
+          <a  href="designs.php"><div class="columns small-12 large-4">
+              <img class="hvr-bob" src="images/graphic_thumb.png" alt="Design_thumb">
           </div></a>
 
-            <a href="animation.php"><div class="columns small-12 large-6">
-              <img src="images/3d_thumb.png" alt="gtc_thumb">
+            <a href="3Danimation.php"><div class="columns small-12 large-4">
+              <img class="hvr-bob" src="images/3d_thumb.png" alt="3DAnimation_thumb">
+          </div></a>
+
+          <a href="photography.php"><div class="columns small-12 large-4">
+              <img class="hvr-bob" src="images/photo_thumb.png" alt="gphotography_thumb">
           </div></a>
 
       
@@ -35,12 +39,9 @@
 
 <?php include 'includes/footer.html';?>
          
-  </div>  
+  </div> 
 
-    <script src="js/app.js"></script>                  
-    <script src="js/foundation.min.js"></script>
+   <?php include 'includes/endPage.html';?> 
 
-    <script>
-		$(document).foundation();
-    </script>
-  </body></html>
+
+

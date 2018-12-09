@@ -6,7 +6,17 @@
 	
 	/* Standard CSS -------------------------------------------
 	-----------------------------------------------------------*/
+body {
+	background-image: url("../images/bg.png");
+}
 
+.goBack a {
+	padding: 10px 15px 10px 15px;
+	color: white;
+	font-weight: bolder;
+	background-color: #77A2FF;
+	margin-bottom: 20px;
+}
 
 	#container {
 		width: 1200px;
@@ -16,7 +26,6 @@
 			border: 3px #1779ba solid;
 			background-color: white;
 	    margin-top: 50px;
-			border-radius: 5px;
 			margin-bottom: 40px;
 	 
 	}
@@ -58,9 +67,7 @@
 		margin-bottom: 30px;
 	}
 
-	.recentWork img {
-		 border-radius: 5px;
-	}
+	
 
 	.banner {
 		width: 100%;
@@ -68,6 +75,11 @@
 
 	.small-12 {
 		margin-bottom: 20px;
+	}
+
+	.animation iframe {
+		width: 100%;
+		height: 450px;
 	}
 
 
@@ -119,7 +131,7 @@
 
 .nav li a {
   padding: 0.9rem 1rem;
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   color: #fefefe;
   text-transform: uppercase;
   display: block;
@@ -135,6 +147,78 @@
 .nav li a:hover {
   background: rgba(254, 254, 254, 0.15);
 }
+
+/* Index / About Me ------------------------------------
+-----------------------------------------------------------*/
+
+.about {
+	margin-top: 40px;
+}
+.john {
+	width: 300px;
+}
+
+.intro {
+	margin-top: 30px;
+	padding: 10px;}
+
+.intro h2 {
+	margin-top: 50px;
+	font-size: 40px;}
+
+.intro p {
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+.about i {
+	color: #7CA7FF;
+	font-size: 300px;
+}
+
+.icons ul li i {
+	font-size: 180px;
+}
+
+.icons ul li p {
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.icons h2{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.aboutSection {
+	padding: 20px;
+}
+
+progress {
+	width: 90%;
+	}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+  height: 40px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #7CA7FF;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
 
 
 /* Portfolio -------------------------------------------
@@ -229,9 +313,141 @@ footer ul {
 	margin: 0;
 }
 
-footer .fab:hover {
+/* footer .fab:hover {
   color: #4a4a4a;
   transition: color 0.3s ease-in;
+} */
+
+
+
+/* Picture Modal
+------------------------------------------ */
+
+#caption {
+	font-size: 2rem
+
+}
+
+.thumbnails {
+	background-color: black;
+}
+
+.row .row {
+
+	margin: auto 0;
+	padding: 25px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
 
@@ -262,6 +478,13 @@ footer .fab:hover {
 		.masks {
 			margin-bottom: 20px;
 		}
+
+			.animation iframe {
+		width: 100%;
+		height: 280px;
+		padding: 10px;
+	}
+
 		
 
 		  }
