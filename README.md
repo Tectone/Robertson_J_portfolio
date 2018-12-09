@@ -38,6 +38,7 @@ And you’re done!
 * [Animate.CSS](https://daneden.github.io/animate.css/) 
 * [Google Fonts](https://fonts.google.com/)
 * [Hover.CSS](http://ianlunn.github.io/Hover/)
+* [Animate on Scroll Library](http://michalsnik.github.io/aos/)
 
 
 ## Author
